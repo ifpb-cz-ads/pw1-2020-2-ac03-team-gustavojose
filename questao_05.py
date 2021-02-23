@@ -4,7 +4,7 @@ print("A aritmética, como dizia, ou quase, o professor Girafales, é o ramo da 
 
 numero1 = float(input("Informe um número: "))
 numero2 = float(input("Informe outro valor: "))
-operacao = str(input("Que operação desejas realizar? "))
+operacao = str(input("Informe que operação desejas realizar (+ | - | * | /): "))
 
 if operacao == "+":
   resultado = numero1 + numero2
